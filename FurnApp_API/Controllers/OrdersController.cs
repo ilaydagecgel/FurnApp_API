@@ -53,7 +53,7 @@ namespace FurnApp_API.Controllers
             }
             else
             {
-                return BadRequest(response);
+                return BadRequest(response);//örnek
             }
         }
         [HttpGet("GetOrders")]
